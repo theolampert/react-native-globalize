@@ -24,7 +24,6 @@
   "files": [
     "dist/",
     "locale-data/",
-    "patches/",
     "LICENSE",
     "README.md"
   ],
@@ -32,7 +31,6 @@
     "build": "tsc",
     "cldr": "gulp cldr",
     "lint": "tsc --noEmit && eslint src test --ext .ts,.tsx",
-    "postinstall": "patch-package",
     "release": "release-it",
     "test": "jest --coverage"
   },
@@ -44,7 +42,6 @@
     "dayjs": "^1.8.20",
     "globalize": "^1.4.2",
     "jsonpack": "^1.1.5",
-    "patch-package": "^6.2.0",
     "postinstall-postinstall": "^2.0.0"
   },
   "devDependencies": {
